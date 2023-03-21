@@ -136,6 +136,14 @@ public class HomeActivity extends AppCompatActivity {
         });
 
 
+        binding.pinLayout.lblSubmit.setOnClickListener(view -> {
+            remainTime = 15;
+            timer.cancel();
+            checkAnswer();
+
+        });
+
+
         score = preferenceManager.getInt(Constants.SCORE);
         quizNo = preferenceManager.getInt(Constants.QUESTION_NO);
 

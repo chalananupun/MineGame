@@ -179,11 +179,26 @@
 
 
 
-
                 </LinearLayout>
+
+
 
             </GridLayout>
 
+            <TextView
+                android:id="@+id/lbl_submit"
+                style="@style/font_style_normal"
+                android:layout_width="255dp"
+                android:layout_height="@dimen/pin_button_width"
+                android:textAllCaps="true"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="15dp"
+                android:background="@drawable/pin_button"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:text="@string/submit"
+                android:textColor="@color/white"
+                android:textStyle="bold" />
 
 
         </LinearLayout>
